@@ -3,10 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>
-        <?php bloginfo(); ?>
-    </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -144,6 +141,9 @@
             </div>
         </div>
     </div>
+
+
+    <?php  wp_footer(); ?>
 </body>
 
 </html>
